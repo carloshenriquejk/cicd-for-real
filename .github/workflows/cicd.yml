@@ -24,7 +24,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
     # ./Setup do Job
     - run: ls -la
-       - run: | 
+    - run: | 
         cd ./frontend
         yarn install
         yarn test
